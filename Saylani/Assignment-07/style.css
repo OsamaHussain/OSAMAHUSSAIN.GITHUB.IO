@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.button-44 {
+  /* margin-top: 30px; */
+  margin-bottom: 30px;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 33.4929px;
+  padding: .8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  /* text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px; */
+  text-underline-offset: 1px;
+  transition: all .2s ease-in-out;
+  user-select: none;
+  min-width: 300px;
+  border: 5px solid #e62143;
+  color: #e62143;
+}
+
+.button-44:hover {
+  border-bottom-style: none;
+  border-color: #dadada;
+  border: 5px solid white;
+  color: white;
+  background-color: #e62143;
+}
+
+.hex-generated {
+    background: white;
+    min-width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 5px solid #e62143;
+}
+
+.hex-generated #img-show {
+    min-width: 250px;
+    height: 250px;
+    overflow: auto;
+}
+
+.hex-generated p {
+    text-align: left;
+    font-size: 18px;
+}
+
+.img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    padding: 0 5px;
+    margin: 10px 0 0 0;
+    flex-wrap: wrap;
+}
+.img .img-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img span {
+    font-size: 30px;
+    margin: 0 20px;
+}
+.img button {
+    width: 100%;
+    border: 2px solid #e62143;
+    color: #e62143;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.img button:active, .img button:focus, .img button:hover {
+    background-color: #e62143;
+    color: white;
+    font-weight: bolder;
+}
+.img .img-data {
+    width: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img .img-data img {
+    width:100%;
+}
+
+/* .hex-generated, .button-44{
+    display: none;
+} */
+.direction {
+    display: flex;
+    justify-content: space-between;
+}
+.direction i {
+    background-color:#e62143;
+    padding: 5px 10px;
+    border-radius: 5px;
+    /* padding: 10px; */
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout-01</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Layout-01.css">
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+        <h1>OurLOGO</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="mob-menu">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="banner-inner">
+            <h1>Welcome to Our Site</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse illum animi cupiditate ducimus optio delectus molestiae blanditiis ipsam inventore quos doloremque beatae possimus aliquid, atque perferendis rem impedit aliquam accusamus.</p>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+    <div class="article">
+        <div class="article-inner">
+            <div class="article-item">
+                <h3>Cool Feature #1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odit eius perferendis nulla optio doloremque sit assumenda molestias voluptate minus exercitationem dicta enim laudantium hic. Ratione molestiae iure modi aliquam.</p>
+                <div class="button-container">
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+            <div class="article-item">
+                <h3>Cool Feature #2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odit eius perferendis nulla optio doloremque sit assumenda molestias voluptate minus exercitationem dicta enim laudantium hic. Ratione molestiae iure modi aliquam.</p>
+                <div class="button-container">
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+            <div class="article-item">
+                <h3>Cool Feature #3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odit eius perferendis nulla optio doloremque sit assumenda molestias voluptate minus exercitationem dicta enim laudantium hic. Ratione molestiae iure modi aliquam.</p>
+                <div class="button-container">
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+            <div class="article-item">
+                <h3>Cool Feature #4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odit eius perferendis nulla optio doloremque sit assumenda molestias voluptate minus exercitationem dicta enim laudantium hic. Ratione molestiae iure modi aliquam.</p>
+                <div class="button-container">
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+            <div class="article-item">
+                <h3>Cool Feature #5</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odit eius perferendis nulla optio doloremque sit assumenda molestias voluptate minus exercitationem dicta enim laudantium hic. Ratione molestiae iure modi aliquam.</p>
+                <div class="button-container">
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+            <div class="article-item">
+                <h3>Cool Feature #6</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odit eius perferendis nulla optio doloremque sit assumenda molestias voluptate minus exercitationem dicta enim laudantium hic. Ratione molestiae iure modi aliquam.</p>
+                <div class="button-container">
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+            <div class="article-item">
+                <h3>Cool Feature #7</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odit eius perferendis nulla optio doloremque sit assumenda molestias voluptate minus exercitationem dicta enim laudantium hic. Ratione molestiae iure modi aliquam.</p>
+                <div class="button-container">
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+            <div class="article-item">
+                <h3>Cool Feature #8</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odit eius perferendis nulla optio doloremque sit assumenda molestias voluptate minus exercitationem dicta enim laudantium hic. Ratione molestiae iure modi aliquam.</p>
+                <div class="button-container">
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+            <div class="article-item">
+                <h3>Cool Feature #9</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odit eius perferendis nulla optio doloremque sit assumenda molestias voluptate minus exercitationem dicta enim laudantium hic. Ratione molestiae iure modi aliquam.</p>
+                <div class="button-container">
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2022 Financial Company</p>
+    </div>
+    </div>
+    <script>
+        const toggleButton = document.querySelector(".mob-menu");
+        const menulist = document.querySelector(".header ul");
+
+        toggleButton.addEventListener("click", () => {
+            menulist.classList.toggle("active");
+        });
+
+        window.addEventListener("resize", () => {
+            menulist.classList.remove("active");
+        });
+    </script>
+</body>
+</html>

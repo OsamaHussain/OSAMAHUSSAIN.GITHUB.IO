@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+}
+.container {
+    height: 100vh;
+    /* background: #c0c0c0; */
+    display: flex;
+}
+/* <START> Contact */
+.contact {
+    /* background-color: red; */
+    flex: 1;
+}
+.user-header {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+.user-header img{
+    max-width: 40px;
+    border-radius: 50%;
+}
+.user-header i {
+    font-size: 20px;
+    padding: 10px;
+}
+.notification {
+    background-color: #53bdeb;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.notification .icon {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #53bdeb;
+    margin-right: 20px;
+}
+.search-bar {
+    background-color: #fff;
+    padding: 10px 20px;
+}
+.search-bar .search-inner {
+    background-color: #f0f2f5;
+    padding: 5px 16px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar .search-inner i {
+    margin-left: 10px;
+    flex: 2;
+}
+.search-bar .search-inner input {
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    flex: 8;
+    outline: none;
+    font-size: 15px;
+}
+.contact-list {
+    /* background-color: #c0c0c0; */
+    background-color: #fff;
+    border-top: 1px solid #c0c0c0;
+    overflow-y: scroll;
+    height: 78vh;
+}
+.contact-list .con {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 5px 20px;
+    border-bottom: 1px solid #c0c0c0;
+}
+.contact-list .con-img img, .contact-list .con-img svg {
+    max-width: 50px;
+    border-radius: 50%;
+    margin-right: 16px;
+    border: 1px solid #c0c0c0;
+    background-color: #DFE5E7;
+}
+.contact-list .con-summary h4 {
+    font-weight: 400;
+}
+.contact-list .con-summary p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    font-size: 14px;
+}
+.contact-list .con-summary i {
+    color: #909090;
+}
+.contact-list .con-summary i[class~="fa-check-double"] {
+    color: skyblue;
+}
+.contact-list .con-summary i[class~="fa-phone"]{
+    color: red;
+}
+.contact-list .con-time{
+    align-self: start;
+    margin-top: 5px;
+    margin: 8px 0 auto auto;
+    font-size: 14px;
+}
+/* <END> Contact */
+
+
+/* <START> Message */
+.message {
+    background-color: blue;
+    flex: 2;
+    height: 100vh;
+}
+/* <END> Message */

@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.button-44 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,"Roboto Slab","Droid Serif","Segoe UI",system-ui,Arial,sans-serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 33.4929px;
+  padding: .8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  /* text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px; */
+  text-underline-offset: 1px;
+  transition: all .2s ease-in-out;
+  user-select: none;
+  min-width: 300px;
+  border: 5px solid #e62143;
+  color: #e62143;
+}
+
+.button-44:hover {
+  border-bottom-style: none;
+  border-color: #dadada;
+  border: 5px solid white;
+  color: white;
+  background-color: #e62143;
+}
+
+.hex-generated {
+    background: white;
+    min-width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 5px solid #e62143;
+}
+
+.hex-generated #hex-show {
+    min-width: 250px;
+    height: 250px;
+    overflow: auto;
+}
+
+.hex-generated p {
+    text-align: left;
+    font-size: 18px;
+}

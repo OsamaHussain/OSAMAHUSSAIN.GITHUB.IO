@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Javascript Bulb Project">
+    <meta name="description" content="Bulb Project">
+    <meta name="author" content="Osama Hussain">
+    <meta http-equiv="refresh" content="30">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch of Javascript in HTML</title>
+
+</head>
+<body style="text-align: center;">
+    
+    <div>
+        <img id="bulb" src="./program6.pic_bulboff.gif" />
+    </div>
+    <button onclick="bulbToggle();">TurnON / TurnOFF</button>
+    
+    <script>
+        let status = 0;
+        function bulbToggle(){
+            let x = document.getElementById("bulb");
+            if (status == 0) {
+                x.src = "./program6.pic_bulbon.gif";   
+                status = 1;
+            }else{
+                x.src = "./program6.pic_bulboff.gif";
+                status = 0;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+/*          https://n.foxdsgn.com/niko/         */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* background-color: #DDA0DD; */
+    background-color:#666;
+}
+.container {
+    background-color: white;
+    display: flex;
+    /* flex-basis: 90%; */
+    height: 70%;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-direction: column;
+}
+/* ========== <START> MENU ========== */
+.menu {
+    flex: 1;
+    background-color: FAF9F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #555;
+    /* padding: 0 0 20px 0; */
+    font-size: 25px;
+    /* border-radius: 50%; */
+}
+.menu-options {
+    background-color: black;
+    width: 100%;
+    /* text-align: center; */
+    /* padding: 0 50px; */
+}
+.menu-download {
+    background-color: black;
+    width: 100%;
+    padding: 10px 20px;
+}
+.menu-download div {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+}
+.image {
+    flex: 7;
+    background-color: blue;
+    /* height: 100%; */
+    
+}
+.profile {
+    flex: 10;
+    background-color: #FAF9F6;
+}
+.menu-bar {
+    background-color: #c97aff;
+    padding: 25px;
+    width: 100%;
+    text-align: left;
+}
+.menu-options div {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-user, .fa-cloud-arrow-down {
+    color: #c97aff;
+}
+/* ========== <END> MENU ========== */
+/* ========== <START> IMAGE ========== */
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* background-image: url("../images/image.jpg"); */
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    padding-bottom: 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+.image h2 {
+    color: #E0FFFF;
+    letter-spacing: 10px;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    margin-bottom: 10px;
+    /* background-color: red; */
+    /* padding: 0 5px; */
+}
+.image i {
+    color: #E0FFFF;
+}
+.image .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    /* background-color: red; */
+}
+.image .social i {
+    margin-right: 10px;
+}
+/* .image > div {
+    width: 100%;
+    text-align: center;
+} */
+/* ========== <END> IMAGE ========== */
+/* ========== <START> PROFILE ========== */
+.profile {
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile h2, .profile h3 {
+    text-transform:uppercase;
+    font-weight: 900;
+    color: #000;
+    letter-spacing: 2px;
+}
+.profile p {
+    color: #666;
+    letter-spacing: 2px;
+}
+.profile i {
+    color: #c97aff;
+    font-size: 30px;
+}
+.profile .row {
+    display: flex;
+}
+.profile .row div * {
+    margin-top: 15px;
+}
+/* ========== <END> PROFILE ========== */                           

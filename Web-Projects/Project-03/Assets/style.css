@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url('./image.jpg') no-repeat center center / cover;
+    height: 100vh;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq {
+    width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+}
+
+.faq h1 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.faq div {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.faq h4 {
+    font-size: 1rem;
+    border-bottom: 2px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq p {
+    display: none;
+}
+
+.faq .display {
+    display: block;
+}

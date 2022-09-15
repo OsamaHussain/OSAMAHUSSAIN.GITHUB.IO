@@ -1,0 +1,90 @@
+:root{
+    --color1 : #fff;
+    --color2 : #ddd;
+    --color3 : gray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+body {
+    background-color: var(--color2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.container {
+    max-width: 1140px;
+    background-color: var(--color1);
+    margin: 40px auto;
+    padding: 20px;
+    height: auto;
+}
+
+nav, header, section, footer {
+    background-color: var(--color2);
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header {
+    padding: 130px;
+}
+
+.section1, .section2 {
+    padding: 50px 15px;
+    float: left;
+    width: 100%;
+}
+
+.section1 .content .card {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.section1 .content .card .box {
+    color: var(--color1);
+    background-color: var(--color3);
+    padding: 60px 10px;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.section2 .content .left, .section2 .content .right {
+    float: left;
+    width: 50%;
+    margin-top: 60px;
+    padding: 0px 10px;
+}
+
+.section2 .content .left .card {
+    background-color: var(--color3);
+    padding: 200px;
+    color:var(--color1);
+    font-size: 30px;
+}
+
+.section2 .content .right .card .box {
+    background-color: var(--color3);
+    padding: 48px;
+    margin-bottom: 20px;
+    color:var(--color1);
+    font-size: 30px;
+}
+
+footer {
+    padding: 50px;
+    margin: 0;
+}

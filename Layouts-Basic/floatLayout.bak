@@ -1,0 +1,92 @@
+:root{
+    --color1 : #fff;
+    --color2 : #ddd;
+    --color3 : gray;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.container {
+    max-width: 1140px;
+    background-color: #fff;
+    margin: 40px auto;
+    height: auto;
+    padding: 20px;
+}
+
+nav, header, section, footer {
+    float: left;
+    width: 100%;
+    background-color: #ddd;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    padding: 30px 15px;
+}
+
+header {
+    padding: 130px 15px;
+}
+
+.section1, .section2 {
+    padding: 50px 10px;
+}
+
+.section1 .content .card {
+    margin-top: 60px;
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.section1 .content .card .box {
+    color: white;
+    background-color: gray;
+    font-size: 30px;
+    padding: 60px 10px;
+}
+
+.section2 .content .left, .section2 .content .right {
+    float: left;
+    width: 50%;
+    padding: 0px 10px;
+    margin-top: 60px;
+}
+
+.section2 .content .left .card {
+    color: white;
+    background-color: gray;
+    font-size: 30px;
+    padding: 200px 15px;
+}
+
+.section2 .content .right .card {
+    background-color: gray;
+    color: white;
+    padding: 48px 15px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 50px 10px;
+}

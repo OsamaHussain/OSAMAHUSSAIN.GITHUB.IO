@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Change Background Radomly</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <button onclick="chgBackground()" class="button-44" id="changebtn">Change Background Image</button>
+        <button onclick="chgBackground()" class="button-44" id="changebtn2" style="min-width: 20px;display: none;"><i class="fa-solid fa-bolt"></i></button>
+        <button onclick="directions(id)" class="button-44" id="menubtn" style="min-width: 20px;display: none;"><i class="fa-solid fa-bars-staggered"></i></button>
+        <div class="hex-generated" id="content">
+            <div id="img-show"></div>
+            <div class="direction">
+                <i class="fa-solid fa-arrow-up" onclick="directions(className);"></i>
+                <i class="fa-solid fa-arrow-down" onclick="directions(className);"></i>
+                <i class="fa-solid fa-arrows-to-dot" onclick="directions(className);"></i>
+                <i class="fa-solid fa-arrow-left" onclick="directions(className);"></i>
+                <i class="fa-solid fa-arrow-right" onclick="directions(className);"></i>
+                <i class="fa-solid fa-xmark" onclick="directions(className);"></i>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>

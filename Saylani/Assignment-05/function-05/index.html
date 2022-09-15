@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: linear-gradient(to right, #136a8a, #267871);
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .inner-container {
+            background-color: rgba(255,255,255,0.8);
+            padding: 20px;
+            border-radius: 20px;
+            /* text-align: center; */
+        }
+        h2 {
+            text-align: center;
+            font-size: 1.7rem;
+            margin-bottom: 50px;
+        }
+        label {
+            font-weight: bolder;
+            font-size: 1.2rem;
+        }
+        input {
+            font-size: 1.2rem;
+        }
+        #output {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            font-weight: bolder;
+        }
+    </style>
+    <title>First Letter UpperCase of Every Word</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <h2>First Letter UpperCase Each Word</h2>
+            <label for="data"> Input Text: 
+                <input type="text" name="data" id="data" autocomplete="off" oninput="this.value = this.value.replace(/[^a-z|A-Z| .]/g, '').replace(/(\..*)\./g, '$1');">
+                <input type="submit" value="Submit" id="submit">
+            </label>
+            <div id="output">
+                Output: <span></span>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Assets/style.css">
+  <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+  <div class="title">
+    <h1>Rock Paper Scissors</h1>
+  </div>
+  <div class="container">
+    <div class="screen" id="screen-01">
+      <input type="text" placeholder="Enter name" id="username">
+      <input type="button" value="Start" id="start" onclick="startGame()">
+      <input type="button" value="Highest Score">
+    </div>
+    <div class="screen game" id="screen-02">
+      <img src="./Assets/buttons.png" alt="Buttons" usemap="#buttons-map" class="buttons">
+      <map name="buttons-map">
+        <area target="" alt="scissors" title="scissors" href="javaScript:void(0);" coords="53,69,37" shape="circle" onclick="userInput('scissor')">
+        <area target="" alt="scissors2" title="scissors2" href="javaScript:void(0);" coords="110,103,22" shape="circle" onclick="userInput('scissor')">
+        <area target="" alt="paper" title="paper" href="javaScript:void(0);" coords="250,69,40" shape="circle" onclick="userInput('paper')">
+        <area target="" alt="paper2" title="paper2" href="javaScript:void(0);" coords="194,105,23" shape="circle" onclick="userInput('paper')">
+        <area target="" alt="rock" title="rock" href="javaScript:void(0);" coords="154,239,40" shape="circle" onclick="userInput('rock')">
+        <area target="" alt="rock2" title="rock2" href="javaScript:void(0);" coords="155,172,23" shape="circle" onclick="userInput('rock')">
+      </map>
+      <div class="statusbar">
+        <hr>
+        <h3>Winner: <span id="winner">None</span></h3>
+        <p>User Input: <span id="user-input">None</span></p>
+        <p>Computer Input: <span id="computer-input">None</span></p>
+        <hr>
+        <h3>Score</h3>
+        <p>User: <span id="userScore">0</span></p>
+        <p>Computer: <span id="computerScore">0</span></p>
+        <hr>
+        <div class="exit" onclick="location.href='';">EXIT</div>
+      </div>
+    </div>
+  </div>
+  <script src="./Assets/app.js"></script>
+</body>
+</html>

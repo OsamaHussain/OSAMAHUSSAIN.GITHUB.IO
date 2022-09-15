@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* <START> Header */
+.header {
+    /* background-image: url("../images/background.jpg"); */
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background.jpg");
+    padding: 30px 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 10px solid #222;
+}
+/* <START> Navigation */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+.navigation img {
+    width: 150px;
+}
+.navigation button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border:none;
+    border-radius: 50px;
+    font-size: 16px;
+}
+/* <END> Navigation */
+/* <START> Header Content */
+.header-content {
+    /* max-width: 950px; */
+    /* background-color: red; */
+    /* margin: 180px auto; */
+    
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    padding: 70px 45px;
+}
+.header-content .content {
+    width: 100%;
+    max-width: 950px;
+    /* background-color: red; */
+    padding: 75px;
+    margin: 0 auto;
+}
+.header-content .content h1 {
+    max-width: 640px;
+    margin: 0 auto;
+}
+.header-content p:nth-child(2){
+    margin: 30px 0;
+    font-size: 25px;
+}
+.header-content p:nth-child(3){
+    margin: 30px 0;
+    font-size: 20px;
+}
+.header-content .subscribe {
+    width: 100%;
+    display: flex;
+    padding: 0px 70px;
+}
+.header-content .subscribe input {
+    padding: 20px 30px;
+}
+.header-content .subscribe input:nth-child(1){
+    flex: 2;
+    border-radius: 50px;
+    border: none;
+}
+.header-content .subscribe input:nth-child(2){
+    flex: 1;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    border-radius: 50px;
+    margin-left: 5px;
+}
+/* <END> Header Content */
+/* <END> Header */
+
+/* <START> STORY CARD */
+.story-card {
+    background-color: #000;
+    padding: 70px 45px;
+    border-bottom: 8px solid #222
+}
+.story-card-inner {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.story-card-inner .text {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.story-card-inner h1 {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+}
+.story-card-inner p {
+    font-size: 26px;
+    color: white;
+}
+.flipped {
+    flex-direction: row-reverse;
+}
+/* <END> STORY CARD */
+
+/* <START> FAQ */
+.hidden {
+    display: none;
+}
+.faq ul {
+    list-style-type: none;
+}
+.faq {
+    background-color: #000;
+    color: white;
+    padding: 70px 45px;
+    border-bottom: 8px solid #222;
+}
+.faq-inner {
+    width: 75%;
+    /* background-color: red; */
+    margin: auto;
+}
+.faq-inner h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+.faq-inner .faq-title { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303030;
+    padding: 20px;
+    border-bottom: 3px solid #000;
+}
+.faq-inner .faq-text {
+    padding: 20px;
+    background-color: #303030;
+    display: none;
+}
+.faq-inner p, .faq-inner i {
+    font-size: 1.5em;
+    letter-spacing: 1.2px;
+}
+.faq-inner .rotate {
+    transform: rotate(45deg);
+}
+.faq-inner .display {
+    display: block;
+}
+.faq-inner li {
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.faq-subscribe {
+    padding: 60px 60px 0 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.faq-subscribe p {
+    font-size: 1.1em;
+}
+.faq-subscribe .subscribe {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.faq-subscribe .subscribe input {
+    padding: 20px;
+    flex: 2;
+    border: none;
+}
+.faq-subscribe .subscribe input[type="submit"] {
+    background-color: #e50914;
+    flex: 1;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* <END> FAQ */
+
+/* <START> FOOTER */
+.footer {
+    padding: 40px 150px;
+    background-color: #000;
+    color: #757575;
+}
+.footer p:nth-child(1) {
+    margin-bottom: 30px;
+}
+.footer p:nth-child(3) {
+    margin-top: 30px;
+}
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer li {
+    list-style-type: none;
+    flex: 1 0 20%;
+    margin: 5px;
+}
+/* <END> FOOTER */

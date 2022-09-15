@@ -1,0 +1,278 @@
+/*          https://n.foxdsgn.com/niko/         */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*****  =============>>>>
+           Menu Section
+        <<===============   *****/
+
+.menu-section {
+    background-color: white;
+
+}
+.menu-section > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    margin-bottom: 1px;
+    color: rgb(85, 85, 85);
+}
+.menu-section > div:not(:first-child) {
+    display: none;
+}
+.menu-section > div > div:not(:first-child) {
+    color: rgb(150, 150, 150);
+}
+.menu-section > div > * {
+    font-size: 25px;
+}
+.menu-section > div:first-child {
+    background-color: rgb(201, 122, 255);
+    color: black;
+    font-weight: bold;
+}
+.menu-section > div:nth-child(2), .menu-section > div:last-child {
+    color: rgb(201, 122, 255);
+}
+.menu-section #menu {
+    color: black;
+}
+
+/*****  =============>>>>
+           Image Section
+        <<<<=============    *****/
+.image img{
+    width: 100%;
+}
+.profile {
+    /* background-color: rgba(255,0,0,0.5); */
+    /* background: url('../images/background.jpg') no-repeat center center / cover; */
+    background: url('../images/img.jpg') no-repeat center center / cover;
+    text-align: center;
+    padding: 10px 0;
+    /* position: fixed; */
+    bottom: 0; /*Mobile only*/
+    width: 100%; /*Mobile only*/
+}
+.profile > div:first-child {
+    font-size: 2em;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 10px;
+}
+.profile > div:last-child {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+    color: white;
+}
+
+/*****  =============>>>>
+           Content Section
+        <<<<=============    *****/
+
+.content-section {
+    /* background-color: #2E2E2E; */
+    color: #FAF9F6;
+    /* color: black; */
+    background: url('../images/background.jpg') no-repeat center center / cover;
+}
+.about {
+    padding: 50px 20px;
+    border-bottom: 1px solid white;
+    background-color: rgba(0,0,0,0.8);
+}
+.about .about-head {
+    text-align: center;
+    background-color: rgba(201, 122, 255, 0.5);
+    font-size: 2em;
+    border-radius: 20px;
+}
+.about .about-breif {
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(201, 122, 255);
+    margin: 20px 0;
+}
+.about .about-content {
+    font-size: 1.3em;
+}
+.services {
+    padding: 50px 20px;
+    border-bottom: 1px solid white;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+}
+.services h2 {
+    background-color: rgba(201, 122, 255, 0.5);
+    font-size: 2em;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.services h3 {
+    margin: 10px 0;
+}
+.services p {
+    text-align: left;
+}
+.prices {
+    padding: 50px 20px;
+    border-bottom: 1px solid white;
+    background-color: rgba(0,0,0,0.8);
+}
+.prices h2 {
+    text-align: center;
+    background-color: rgba(201, 122, 255, 0.5);
+    font-size: 2em;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.prices h3 {
+    margin-top: 50px;
+}
+.prices .price-value {
+    font-size: 2.5em;
+    color: rgba(201, 122, 255, 1);
+}
+.prices h3, .prices div {
+    text-align: center;
+    font-size: 1.2em;
+}
+.prices .disable {
+    color: gray;
+}
+.prices button {
+    /* background-color: rgba(201, 122, 255, 0.5); */
+    background-color: transparent;
+    border: 2px solid rgba(201, 122, 255, 1);
+    /* color: rgb(201, 122, 255); */
+    color: rgba(201, 122, 255, 1);
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.prices button:hover {
+    background-color: rgba(201, 122, 255, 0.5);
+    color: white;
+    border: 2px solid white;
+}
+.principal {
+    padding: 50px 20px;
+    border-bottom: 1px solid white;
+    background-color: rgba(0,0,0,0.8);
+}
+.principal h2 {
+    text-align: center;
+    background-color: rgba(201, 122, 255, 0.5);
+    font-size: 2em;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.principal .count {
+    font-size: 4em;
+    text-align: center;
+    color: rgba(201, 122, 255, 1);
+}
+.principal .content {
+    font-size: 1.4em;
+    text-align: center;
+}
+.clients {
+    padding: 50px 20px;
+    border-bottom: 1px solid white;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+}
+.clients h2 {
+    text-align: center;
+    background-color: rgba(201, 122, 255, 0.5);
+    font-size: 2em;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.clients div {
+    /* border-bottom: 2px solid white; */
+    margin: 20px 0;
+    border-bottom: 1px solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+    .about .about-head, .services h2, .prices h2, .principal h2, .clients h2 {
+        text-align: left;
+        padding: 0 50px;
+        width: fit-content;
+        margin: 0 20px;
+    }
+    .about .about-breif, .about .about-content {
+        text-align: left;
+        padding: 0 30px;
+    }
+    .services, .prices, .principal, .clients {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 1.3em;
+        text-align: left;
+    }
+    .services h2, .prices h2, .principal h2, .clients h2 {
+        flex-basis: 100%;
+    }
+    .services > div {
+        /* width: 260px; */
+        width: 42%;
+        margin-top: 30px;
+    }
+    .services > div h3, .prices > div h3 {
+        text-align: left;
+    }
+    .services > div p {
+        font-size: 18px;
+    }
+    .prices > div {
+        font-size: 20px;
+        width: 25%;
+        text-align: left;
+    }
+    .prices .price-value {
+        font-size: 35px;
+        text-align: left;
+    }
+    .principal h2 {
+        font-size: 1.9em;
+    }
+    .principal > div {
+        width: 20%;
+        text-align: left;
+    }
+    .principal .count {
+        margin-top: 30px;
+        font-size: 2em;
+    }
+    .principal .content{
+        font-size: 1em;
+    }
+    .clients > div {
+        width: 30%;
+    }
+    .container {
+        max-width: 540px;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        background-color: #f7e3ea;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+}

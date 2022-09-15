@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu-section">
+            <div>
+                <div class="fa-solid fa-bars"></div>
+                <div id="menu">Menu</div>
+            </div>
+            <div>
+                <i class="fa-regular fa-user"></i>
+                <div>User</div>
+            </div>
+            <div>
+                <i class="fa-regular fa-comment"></i>
+                <div>Comment</div>
+            </div>
+            <div>
+                <i class="fa-regular fa-edit"></i>
+                <div>Edit</div>
+            </div>
+            <div>
+                <i class="fa-solid fa-glasses"></i>
+                <div>Vision</div>
+            </div>
+            <div>
+                <i class="fa-solid fa-briefcase"></i>
+                <div>Skills</div>
+            </div>
+            <div>
+                <i class="fa-solid fa-cloud-arrow-down"></i>
+                <div>Download</div>
+            </div>
+        </div>
+        <div class="image-section">
+            <div class="image">
+                <img src="./Assets/images/image.jpg" alt="Profile Picture">
+            </div>
+            <div class="profile">
+                <div>Osama Hussain</div>
+                <div>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-snapchat"></i>
+                </div>
+            </div>
+        </div>
+        <div class="content-section">
+            <div class="about">
+                <h2 class="about-head">ABOUT ME</h2>
+                <p class="about-breif">20 years / Lviv / Freelance</p>
+                <p class="about-content">Prolific, full stack web developer with a passion for metrics and beating former "best-yets." Prototyped 25 new product features per year for Flexor, Inc. Decreased rework by 22% and costs by 15%. Consistently receive high user experience scores for all web development projects, including a 55% increase for Flexor, Inc. Passionate about building world class web applications. One of my sites received a 2015 Webby for Best Navigation and Structure.</p>
+            </div>
+            <div class="services">
+                <h2>My Services</h2>
+                <div class="development">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>DEVELOPMENT</h3>
+                    <p>Building a custom tailored solution based on your technical specification.</p>
+                </div>
+                <div class="seooptimization">
+                    <i class="fa-solid fa-bolt"></i>
+                    <h3>SEO-OPTIMIZATION</h3>
+                    <p>Audit your website, perform technical improvements and write meta tags</p>
+                </div>
+                <div class="database">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h3>DATABASE</h3>
+                    <p>SSL certificate installation and configuration, redirection configuration on your website</p>
+                </div>
+                <div class="datasecurity">
+                    <i class="fa-solid fa-fingerprint"></i>
+                    <h3>DATA SECURITY</h3>
+                    <p>Strategy with leading data protection technology to safeguard your critical data.</p>
+                </div>
+            </div>
+            <div class="prices">
+                <h2>MY PRICING</h2>
+                <div class="basic">
+                    <h3>BASIC</h3>
+                    <div class="price-value">$29<span>/hour</span></div>
+                    <p>Consulting</p>
+                    <p class="disable">Develpoment</p>
+                    <p class="disable">Optimization</p>
+                    <p class="disable">24/7 Support</p>
+                    <button onclick="plan(1);">CHOOSE PLAN</button>
+                </div>
+                <div class="advance">
+                    <h3>ADVANCE</h3>
+                    <div class="price-value">$39<span>/hour</span></div>
+                    <p>Consulting</p>
+                    <p>Develpoment</p>
+                    <p class="disable">Optimization</p>
+                    <p class="disable">24/7 Support</p>
+                    <button onclick="plan(2);">CHOOSE PLAN</button>
+                </div>
+                <div class="premium">
+                    <h3>PREMIUM</h3>
+                    <div class="price-value">$99<span>/hour</span></div>
+                    <p>Consulting</p>
+                    <p>Develpoment</p>
+                    <p>Optimization</p>
+                    <p>24/7 Support</p>
+                    <button onclick="plan(3);">CHOOSE PLAN</button>
+                </div>
+            </div>
+            <div class="principal">
+                <h2>PRINCIPAL FACTS</h2>
+                <div class="projects">
+                    <div class="count">124</div>
+                    <div class="content">successul projects</div>
+                </div>
+                <div class="">
+                    <div class="count">89</div>
+                    <div class="content">happy clients</div>
+                </div>
+                <div class="awards">
+                    <div class="count">18</div>
+                    <div class="content">awards</div>
+                </div>
+                <div class="keyboard">
+                    <div class="count">23</div>
+                    <div class="content">keyboards broken</div>
+                </div>
+            </div>
+            <div class="clients">
+                <h2>Clients</h2>
+                <div><img src="./Assets/images/client1.png" alt=""></div>
+                <div><img src="./Assets/images/client2.png" alt=""></div>
+                <div><img src="./Assets/images/client3.png" alt=""></div>
+                <div><img src="./Assets/images/client4.png" alt=""></div>
+                <div><img src="./Assets/images/client5.png" alt=""></div>
+                <div><img src="./Assets/images/client6.png" alt=""></div>
+                <div><img src="./Assets/images/client7.png" alt=""></div>
+                <div><img src="./Assets/images/client8.png" alt=""></div>
+                <div><img src="./Assets/images/client9.png" alt=""></div>
+                <div><img src="./Assets/images/client10.png" alt=""></div>
+                <div><img src="./Assets/images/client11.png" alt=""></div>
+                <div><img src="./Assets/images/client12.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <script src="./Assets/js/app.js"></script>
+</body>
+</html>
