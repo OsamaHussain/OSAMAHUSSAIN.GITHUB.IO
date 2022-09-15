@@ -11,11 +11,29 @@
 ### Whatsapp
 
 - [Assignment-02: https://osamahussain.github.io/Saylani/Assignment-02](./Saylani/Assignment-02/)
+
+#### Portfolio
+
 - [Assignment-03: https://osamahussain.github.io/Saylani/Assignment-03](./Saylani/Assignment-03/)
+
+#### Rock/Paper/Scissor Game
+
 - [Assignment-04: https://osamahussain.github.io/Saylani/Assignment-04](./Saylani/Assignment-04/)
+
+#### Useful Functions
+
 - [Assignment-05: https://osamahussain.github.io/Saylani/Assignment-05](./Saylani/Assignment-05/)
+
+#### Background Color Changer
+
 - [Assignment-06: https://osamahussain.github.io/Saylani/Assignment-06](./Saylani/Assignment-06/)
+
+#### Background Image Changer
+
 - [Assignment-07: https://osamahussain.github.io/Saylani/Assignment-07](./Saylani/Assignment-07/)
+
+#### Image Slider
+
 - [Assignment-08: https://osamahussain.github.io/Saylani/Assignment-08](./Saylani/Assignment-08/)
 
 # Layouts
