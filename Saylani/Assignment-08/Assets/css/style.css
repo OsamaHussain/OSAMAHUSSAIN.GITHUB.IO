@@ -77,7 +77,11 @@ img {
     font-size: 1.4em;
     border-radius: 0 0 20px 0;
 }
-
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .dot {
     cursor: pointer;
     height: 15px;
@@ -101,8 +105,4 @@ animation-duration: 1.5s;
 @keyframes fade {
 from {opacity: .4} 
 to {opacity: 1}
-}
-
-.slide {
-    width: 100%;
 }

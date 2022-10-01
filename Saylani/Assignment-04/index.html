@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="title">
-    <h1>Rock Paper Scissors</h1>
+    <h1 class="unselect">Rock Paper Scissors</h1>
   </div>
   <div class="container">
     <div class="screen" id="screen-01">
@@ -18,7 +18,7 @@
       <input type="button" value="Highest Score">
     </div>
     <div class="screen game" id="screen-02">
-      <img src="./Assets/buttons.png" alt="Buttons" usemap="#buttons-map" class="buttons">
+      <img src="./Assets/buttons.png" alt="Buttons" usemap="#buttons-map" class="buttons" id="buttons">
       <map name="buttons-map">
         <area target="" alt="scissors" title="scissors" href="javaScript:void(0);" coords="53,69,37" shape="circle" onclick="userInput('scissor')">
         <area target="" alt="scissors2" title="scissors2" href="javaScript:void(0);" coords="110,103,22" shape="circle" onclick="userInput('scissor')">

@@ -17,6 +17,7 @@ function startGame() {
 
 	screen01.style.display = 'none';
 	screen02.style.display = 'flex';
+	document.getElementById('buttons').setAttribute('draggable', false);
 }
 
 function userInput(input) {

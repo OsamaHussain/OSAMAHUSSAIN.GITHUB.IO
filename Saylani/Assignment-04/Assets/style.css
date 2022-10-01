@@ -4,6 +4,11 @@ body, html {
 	box-sizing: border-box;
 	font-family: cursive, monospace, sans-serif;
 }
+div {
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10 and IE 11 */
+	user-select: none; /* Standard syntax */
+}
 body {
 	display: flex;
 	align-items: center;
@@ -32,6 +37,7 @@ body {
 .buttons {
 	width: 100%;
 	height: auto;
+	user-select: none;
 }
 .game {
 	margin-top: 0;
