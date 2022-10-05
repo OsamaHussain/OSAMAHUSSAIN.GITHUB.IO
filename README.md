@@ -4,9 +4,7 @@
 
 # Saylani
 
-#### Table
-
-- [Assignment-01: https://osamahussain.github.io/Saylani/Assignment-01](./Saylani/Assignment-01/)
+#### [Table](./Saylani/Assignment-01/)
 
 #### Whatsapp
 
