@@ -4,15 +4,7 @@
 
 # Saylani
 
-#### [Table](./Saylani/Assignment-01/)
-
-#### Whatsapp
-
-- [Assignment-02: https://osamahussain.github.io/Saylani/Assignment-02](./Saylani/Assignment-02/)
-
-#### Portfolio
-
-- [Assignment-03: https://osamahussain.github.io/Saylani/Assignment-03](./Saylani/Assignment-03/)
+#### [Table](./Saylani/Assignment-01/) #### [Whatsapp](./Saylani/Assignment-02/) #### [Portfolio](./Saylani/Assignment-03/)
 
 #### Rock/Paper/Scissor Game
 
