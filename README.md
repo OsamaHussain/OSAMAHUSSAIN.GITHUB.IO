@@ -4,6 +4,9 @@
 
 # Saylani
 
+- Table
+- Whatsapp
+
 **-** [<span style="color:orange;">**Table**</span>](./Saylani/Assignment-01/)
 
 **-** [<span style="color:#0067A1;">**Whatsapp**</span>](./Saylani/Assignment-02/)
