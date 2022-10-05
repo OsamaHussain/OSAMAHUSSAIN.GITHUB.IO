@@ -4,6 +4,9 @@
 
 # Saylani
 
-#### **-** [Table `#0969DA`](./Saylani/Assignment-01/) **-** [Whatsapp](./Saylani/Assignment-02/) **-** [Portfolio](./Saylani/Assignment-03/) **-** [Rock/Paper/Scissor Game](./Saylani/Assignment-04/) **-** [Useful Functions](./Saylani/Assignment-05/) **-** [Background Color Changer](./Saylani/Assignment-06/) **-** [Background Image Changer](./Saylani/Assignment-07/) **-** [Image Slider](./Saylani/Assignment-08/)
+#### **-** [<span style="color:orange;">Table</span>](./Saylani/Assignment-01/) **-** [<span style="color:#0067A1;">Whatsapp</span>](./Saylani/Assignment-02/) **-** [<span style="color:#6F1674;">Portfolio</span>](./Saylani/Assignment-03/) **-** [<span style="color:#3DB54B;">Rock/Paper/Scissor Game</span>](./Saylani/Assignment-04/) **-** [Useful Functions](./Saylani/Assignment-05/) **-** [<span style="color:#8A0204;">Background Color Changer</span>](./Saylani/Assignment-06/) **-** [<span style="color:#947300;">Background Image Changer</span>](./Saylani/Assignment-07/) **-** [Image Slider](./Saylani/Assignment-08/)
 
-<span style="color:orange;">Word up</span>
+#6F1674
+#3DB54B
+#8A0204
+#947300
