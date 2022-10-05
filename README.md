@@ -4,18 +4,18 @@
 
 # Saylani
 
-- **-** [<span style="color:orange;">**Table**</span>](./Saylani/Assignment-01/)
+- [<span style="color:orange;">**Table**</span>](./Saylani/Assignment-01/)
 
-- **-** [<span style="color:#0067A1;">**Whatsapp**</span>](./Saylani/Assignment-02/)
+- [<span style="color:#0067A1;">**Whatsapp**</span>](./Saylani/Assignment-02/)
 
-- **-** [<span style="color:#6F1674;">**Portfolio**</span>](./Saylani/Assignment-03/)
+- [<span style="color:#6F1674;">**Portfolio**</span>](./Saylani/Assignment-03/)
 
-- **-** [<span style="color:#3DB54B;">**Rock/Paper/Scissor Game**</span>](./Saylani/Assignment-04/)
+- [<span style="color:#3DB54B;">**Rock/Paper/Scissor Game**</span>](./Saylani/Assignment-04/)
 
-- **-** [<span style="color:#3DB54B;">**Useful Functions**</span>](./Saylani/Assignment-05/)
+- [<span style="color:#3DB54B;">**Useful Functions**</span>](./Saylani/Assignment-05/)
 
-- **-** [<span style="color:#8A0204;">**Background Color Changer**</span>](./Saylani/Assignment-06/)
+- [<span style="color:#8A0204;">**Background Color Changer**</span>](./Saylani/Assignment-06/)
 
-- **-** [<span style="color:#947300;">**Background Image Changer**</span>](./Saylani/Assignment-07/)
+- [<span style="color:#947300;">**Background Image Changer**</span>](./Saylani/Assignment-07/)
 
-- **-** [<span style="color:#3DB54B;">**Image Slider**</span>](./Saylani/Assignment-08/)
+- [<span style="color:#3DB54B;">**Image Slider**</span>](./Saylani/Assignment-08/)
