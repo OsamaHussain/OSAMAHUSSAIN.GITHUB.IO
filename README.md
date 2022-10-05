@@ -1,6 +1,6 @@
 # HTML-CSS
 
-- [Main: https://osamahussain.github.io/](../../)
+- [Main: https://osamahussain.github.io/](https://osamahussain.github.io/)
 
 # Saylani
 
