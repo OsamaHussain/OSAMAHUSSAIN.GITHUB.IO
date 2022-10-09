@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+#game {
+    background-color: #c0c0c0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+canvas {
+    border: 1px solid white;
+}

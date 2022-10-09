@@ -12,27 +12,18 @@ let submitBtnFun01 = document.querySelector('#fun01-submit');
 let outputFieldFun01 = document.querySelector('#fun01-output');
 
 // Function & Event Listner
-submitBtnFun01.addEventListener('click', ()=>{
-    let outputValue = '';
-    if (dataFieldFun01.value !== '') {
-        for (let i = 0; i < dataFieldFun01.value.length; i++) {
-            const element = dataFieldFun01.value[dataFieldFun01.value.length-i-1];
-            outputValue += element;
-        }
-    }else {
-        outputValue = "Please Enter Some Value";
-    }
-    outputFieldFun01.children[0].innerText = outputValue;
+submitBtnFun01.addEventListener('click', () => {
+	let outputValue = '';
+	if (dataFieldFun01.value !== '') {
+		for (let i = 0; i < dataFieldFun01.value.length; i++) {
+			const element = dataFieldFun01.value[dataFieldFun01.value.length - i - 1];
+			outputValue += element;
+		}
+	} else {
+		outputValue = 'Please Enter Some Value';
+	}
+	outputFieldFun01.children[0].innerText = outputValue;
 });
-
-
-
-
-
-
-
-
-
 
 /* ----------------------------------------
 START -----> ++++++++ Function 02 +++++++++
@@ -47,32 +38,23 @@ submitBtnFun02 = document.querySelector('#fun02-submit');
 outputFieldFun02 = document.querySelector('#fun02-output');
 
 // Function & Event Listner
-submitBtnFun02.addEventListener('click', ()=>{
-    let outputValue = '';
-    if (dataFieldFun02.value !== '') {
-        for (let i = 0; i < dataFieldFun02.value.length; i++) {
-            const element = dataFieldFun02.value[dataFieldFun02.value.length-i-1];
-            outputValue += element;
-        }
-        if (dataFieldFun02.value.toLowerCase() == outputValue.toLowerCase()) {
-            outputValue += " - (Palindrome)";
-        }else {
-            outputValue += " - (Not a Palindrome)";
-        }
-    }else {
-        outputValue = "Please Enter Some Value";
-    }
-    outputFieldFun02.children[0].innerText = outputValue;
+submitBtnFun02.addEventListener('click', () => {
+	let outputValue = '';
+	if (dataFieldFun02.value !== '') {
+		for (let i = 0; i < dataFieldFun02.value.length; i++) {
+			const element = dataFieldFun02.value[dataFieldFun02.value.length - i - 1];
+			outputValue += element;
+		}
+		if (dataFieldFun02.value.toLowerCase() == outputValue.toLowerCase()) {
+			outputValue += ' - (Palindrome)';
+		} else {
+			outputValue += ' - (Not a Palindrome)';
+		}
+	} else {
+		outputValue = 'Please Enter Some Value';
+	}
+	outputFieldFun02.children[0].innerText = outputValue;
 });
-
-
-
-
-
-
-
-
-
 
 /* ----------------------------------------
 START -----> ++++++++ Function 03 +++++++++
@@ -88,33 +70,25 @@ let submitBtnFun03 = document.querySelector('#fun03-submit');
 let outputFieldFun03 = document.querySelector('#fun03-output');
 
 // Function & Event Listner
-submitBtnFun03.addEventListener('click', ()=>{
-    let outputValue = [];
-    let count = 0;
-    if (dataFieldFun03.value !== '') {
-        for(let i = 0 ;i < dataFieldFun03.value.length; i++){
-            for(let j = i+1; j< dataFieldFun03.value.length+1; j++){
-                outputValue.push(dataFieldFun03.value.slice(i , j));
-                count += 1;
-                if (count == 10) {
-                    outputValue.push("<br>");
-                    count = 0;
-                }
-            }
-        }
-    }else {
-        outputValue = "Please Enter Some Value";
-    }
-    outputFieldFun03.children[0].innerHTML = outputValue;
+submitBtnFun03.addEventListener('click', () => {
+	let outputValue = [];
+	let count = 0;
+	if (dataFieldFun03.value !== '') {
+		for (let i = 0; i < dataFieldFun03.value.length; i++) {
+			for (let j = i + 1; j < dataFieldFun03.value.length + 1; j++) {
+				outputValue.push(dataFieldFun03.value.slice(i, j));
+				count += 1;
+				if (count == 10) {
+					outputValue.push('<br>');
+					count = 0;
+				}
+			}
+		}
+	} else {
+		outputValue = 'Please Enter Some Value';
+	}
+	outputFieldFun03.children[0].innerHTML = outputValue;
 });
-
-
-
-
-
-
-
-
 
 /* ----------------------------------------
 START -----> ++++++++ Function 04 +++++++++
@@ -131,22 +105,15 @@ let submitBtnFun04 = document.querySelector('#fun04-submit');
 let outputFieldFun04 = document.querySelector('#fun04-output');
 
 // Function & Event Listner
-submitBtnFun04.addEventListener('click', ()=>{
-    let outputValue = '';
-    if (dataFieldFun04.value !== '') {
-        outputValue = dataFieldFun04.value.toLowerCase().split("").sort().join("");
-    }else {
-        outputValue = "Please Enter Some Value";
-    }
-    outputFieldFun04.children[0].innerText = outputValue;
+submitBtnFun04.addEventListener('click', () => {
+	let outputValue = '';
+	if (dataFieldFun04.value !== '') {
+		outputValue = dataFieldFun04.value.toLowerCase().split('').sort().join('');
+	} else {
+		outputValue = 'Please Enter Some Value';
+	}
+	outputFieldFun04.children[0].innerText = outputValue;
 });
-
-
-
-
-
-
-
 
 /* ----------------------------------------
 START -----> ++++++++ Function 05 +++++++++
@@ -162,30 +129,20 @@ let submitBtnFun05 = document.querySelector('#fun05-submit');
 let outputFieldFun05 = document.querySelector('#fun05-output');
 
 // Function & Event Listner
-submitBtnFun05.addEventListener('click', ()=>{
-    let temp = [];
-    let outputValue = [];
-    if (dataFieldFun05.value !== '') {
-        for (let i = 0; i < dataFieldFun05.value.split(" ").length; i++) {
-            const element = dataFieldFun05.value.split(" ")[i];
-            temp.push(element);
-            outputValue.push(temp[i].charAt(0).toUpperCase() + temp[i].slice(1));
-        }
-        
-
-    }else {
-        outputValue = "Please Enter Some Value";
-    }
-    outputFieldFun05.children[0].innerText = outputValue.join(" ");
+submitBtnFun05.addEventListener('click', () => {
+	let temp = [];
+	let outputValue = [];
+	if (dataFieldFun05.value !== '') {
+		for (let i = 0; i < dataFieldFun05.value.split(' ').length; i++) {
+			const element = dataFieldFun05.value.split(' ')[i];
+			temp.push(element);
+			outputValue.push(temp[i].charAt(0).toUpperCase() + temp[i].slice(1));
+		}
+	} else {
+		outputValue = 'Please Enter Some Value';
+	}
+	outputFieldFun05.children[0].innerText = outputValue.join(' ');
 });
-
-
-
-
-
-
-
-
 
 /* ----------------------------------------
 START -----> ++++++++ Function 06 +++++++++
@@ -201,33 +158,25 @@ let submitBtnFun06 = document.querySelector('#fun06-submit');
 let outputFieldFun06 = document.querySelector('#fun06-output');
 
 // Function & Event Listner
-submitBtnFun06.addEventListener('click', ()=>{
-    let outputValue = [];
-    let result;
-    if (dataFieldFun06.value !== '') {
-        for (let i = 0; i < dataFieldFun06.value.split(" ").length; i++) {
-            const element = dataFieldFun06.value.split(" ")[i];
-            outputValue.push(element);
-        }
-        result = outputValue[0];
-        for (let i = 1; i < outputValue.length; i++) {
-            if (result.length < outputValue[i].length) {
-                result = outputValue[i];
-            }
-        }
-    }else {
-        outputValue = "Please Enter Some Value";
-    }
-    outputFieldFun06.children[0].innerText = result;
+submitBtnFun06.addEventListener('click', () => {
+	let outputValue = [];
+	let result;
+	if (dataFieldFun06.value !== '') {
+		for (let i = 0; i < dataFieldFun06.value.split(' ').length; i++) {
+			const element = dataFieldFun06.value.split(' ')[i];
+			outputValue.push(element);
+		}
+		result = outputValue[0];
+		for (let i = 1; i < outputValue.length; i++) {
+			if (result.length < outputValue[i].length) {
+				result = outputValue[i];
+			}
+		}
+	} else {
+		outputValue = 'Please Enter Some Value';
+	}
+	outputFieldFun06.children[0].innerText = result;
 });
-
-
-
-
-
-
-
-
 
 /* ----------------------------------------
 START -----> ++++++++ Function 07 +++++++++
@@ -243,23 +192,15 @@ let submitBtnFun07 = document.querySelector('#fun07-submit');
 let outputFieldFun07 = document.querySelector('#fun07-output');
 
 // Function & Event Listner
-submitBtnFun07.addEventListener('click', ()=>{
-    let outputValue = 0;
-    if (dataFieldFun07.value !== '') {
-        outputValue = dataFieldFun07.value.match(/[aeiou]/gi).length;
-    }else {
-        outputValue = "Please Enter Some Value";
-    }
-    outputFieldFun07.children[0].innerText = outputValue;
+submitBtnFun07.addEventListener('click', () => {
+	let outputValue = 0;
+	if (dataFieldFun07.value !== '') {
+		outputValue = dataFieldFun07.value.match(/[aeiou]/gi).length;
+	} else {
+		outputValue = 'Please Enter Some Value';
+	}
+	outputFieldFun07.children[0].innerText = outputValue;
 });
-
-
-
-
-
-
-
-
 
 /* ----------------------------------------
 START -----> ++++++++ Function 08 +++++++++
@@ -274,35 +215,27 @@ let submitBtnFun08 = document.querySelector('#fun08-submit');
 let outputFieldFun08 = document.querySelector('#fun08-output');
 
 // Function & Event Listner
-submitBtnFun08.addEventListener('click', ()=>{
-    let outputValue = "";
-    let count = 0;
-    let input = parseInt(dataFieldFun08.value);
-    if (dataFieldFun08.value !== '') {
-        // outputValue = dataFieldFun08.value.match(/[aeiou]/gi).length;
-        for (let i = 2; i < input; i++) {
-            if(input%i==0){
-                outputValue = input + " - Not a Prime Number";
-                count++;
-                break;
-            }
-        }
-        if (count == 0) {
-            outputValue = input + " - A Prime Number";
-        }
-    }else {
-        outputValue = "Please Enter Some Value";
-    }
-    outputFieldFun08.children[0].innerText = outputValue;
+submitBtnFun08.addEventListener('click', () => {
+	let outputValue = '';
+	let count = 0;
+	let input = parseInt(dataFieldFun08.value);
+	if (dataFieldFun08.value !== '') {
+		// outputValue = dataFieldFun08.value.match(/[aeiou]/gi).length;
+		for (let i = 2; i < input; i++) {
+			if (input % i == 0) {
+				outputValue = input + ' - Not a Prime Number';
+				count++;
+				break;
+			}
+		}
+		if (count == 0) {
+			outputValue = input + ' - A Prime Number';
+		}
+	} else {
+		outputValue = 'Please Enter Some Value';
+	}
+	outputFieldFun08.children[0].innerText = outputValue;
 });
-
-
-
-
-
-
-
-
 
 /* ----------------------------------------
 START -----> ++++++++ Function 09 +++++++++
@@ -317,39 +250,31 @@ let submitBtnFun09 = document.querySelector('#fun09-submit');
 let outputFieldFun09 = document.querySelector('#fun09-output');
 
 // Function & Event Listner
-function checkDataType(value)
-{
-var dataTypes = [Function, RegExp, Number, String, Boolean, Object], x, len;
-    
-if (typeof value === "object" || typeof value === "function") 
-    {
-     for (x = 0, len = dataTypes.length; x < len; x++) 
-     {
-            if (value instanceof dataTypes[x])
-            {
-                return dataTypes[x];
-            }
-      }
-    }
-    return typeof value;
+function checkDataType(value) {
+	var dataTypes = [Function, RegExp, Number, String, Boolean, Object],
+		x,
+		len;
+
+	if (typeof value === 'object' || typeof value === 'function') {
+		for (x = 0, len = dataTypes.length; x < len; x++) {
+			if (value instanceof dataTypes[x]) {
+				return dataTypes[x];
+			}
+		}
+	}
+	return typeof value;
 }
 
-let inputFun09 = function(a,b){return a-b};
+let inputFun09 = function (a, b) {
+	return a - b;
+};
 // Enter Any Value (object, boolean, function, number, string, and undefined)
 
 dataFieldFun09.value = inputFun09;
 let outputValue = checkDataType(inputFun09);
-submitBtnFun09.addEventListener('click', ()=>{
-    outputFieldFun09.children[0].innerText = outputValue;
+submitBtnFun09.addEventListener('click', () => {
+	outputFieldFun09.children[0].innerText = outputValue;
 });
-
-
-
-
-
-
-
-
 
 /* ----------------------------------------
 START -----> ++++++++ Function 10 +++++++++
@@ -365,21 +290,24 @@ let submitBtnFun10 = document.querySelector('#fun10-submit');
 let outputFieldFun10 = document.querySelector('#fun10-output');
 
 // Function & Event Listner
-submitBtnFun10.addEventListener('click', ()=>{
-    let outputValue = [];
-    let input = dataFieldFun10.value.split(",");
-    let temp = [];
-    
-    if (dataFieldFun10.value !== '') {
-        for (let i = 0; i < input.length; i++) {
-            temp.push(parseInt(input[i]));
-        }
-        console.log(temp.sort(function(a,b){return a-b}));
-        outputValue.push(temp[1]);
-        outputValue.push(temp[input.length-2]);
-        
-    }else {
-        outputValue = "Please Enter Some Value";
-    }
-    outputFieldFun10.children[0].innerText = outputValue;
+submitBtnFun10.addEventListener('click', () => {
+	let outputValue = [];
+	let input = dataFieldFun10.value.split(',');
+	let temp = [];
+
+	if (dataFieldFun10.value !== '') {
+		for (let i = 0; i < input.length; i++) {
+			temp.push(parseInt(input[i]));
+		}
+		console.log(
+			temp.sort(function (a, b) {
+				return a - b;
+			})
+		);
+		outputValue.push(temp[1]);
+		outputValue.push(temp[input.length - 2]);
+	} else {
+		outputValue = 'Please Enter Some Value';
+	}
+	outputFieldFun10.children[0].innerText = outputValue;
 });

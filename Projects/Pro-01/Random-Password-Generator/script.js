@@ -58,17 +58,16 @@ document.getElementById('hiddenMsg').addEventListener('click', () => {
 function shuffle() {
 	let s = a;
 	let o = '';
-	let tmp = '';
-	for (let i = 0; i < s.length; i++) {
-		tmp = s[Math.floor(Math.random() * s.length)];
-		o += s != '' ? tmp : '';
-		// console.log(s.replace(tmp, ''));
-		// console.log(o);
-		// console.log(a);
+	let temp;
+	let t1, t2;
+	for (let i = 0; i < s.length * 2; i++) {
+		t1 = Math.floor(Math.random() * s.length);
+		t2 = Math.floor(Math.random() * s.length);
+		temp = s[t1];
+		s = s.replaceAt(t1, s[t2]);
+		s = s.replaceAt(t2, temp);
 	}
-	console.log('O: ', o);
-	console.log('A: ', a);
-	return o;
+	return s;
 }
 document.getElementById('shuffle').addEventListener('click', () => {
 	outputField.value = shuffle();
@@ -84,3 +83,10 @@ function reset() {
 	hiddenMsg.classList.add('hidden');
 }
 document.getElementById('reset').addEventListener('click', reset);
+
+String.prototype.replaceAt = function (index, replacement) {
+	if (index >= this.length) {
+		return this.valueOf();
+	}
+	return this.slice(0, index) + replacement + this.slice(index + 1);
+};

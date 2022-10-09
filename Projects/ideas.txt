@@ -1,0 +1,316 @@
+############# ----- Project Ideas ------ ############
+
+
+============= JavaScript ================
+{   
+    https://mikkegoes.com/javascript-projects-for-beginners/
+
+    . Clock
+    . Calculator
+    . Tip Calculator
+    . Quiz
+
+    - Audio Player
+    - Cash Receipt Memo App
+    - Snake Food Game
+    - Drum Kit
+    - Guess Color Game
+    - Hangman Game
+    - Tic Tac Toe
+    - Ping Pong
+    - Pairs Game
+    - Maze Game
+    - Simon Game
+    - Platformer Game
+    - JavaScript timeline
+    - Animated nav toggle
+    - mouseover effect
+    - weather App
+    - browser code editor
+    - star war opening crawl
+}
+
+{
+    https://www.freecodecamp.org/news/javascript-projects-for-beginners/
+    https://www.vanillajavascriptprojects.com/
+
+    - counter
+    - review carousel
+    - responsive navbar
+    - sidebar
+    - restaurant menu page
+    - video background
+    - navigation bar on scroll
+    - tabs that display different content
+    - countdown clock
+    - your own Lorem ipsum
+    - grocery list
+    - an image slider
+    - Rock Paper Scissors game
+    - Simon Game
+    - Platformer Game
+    - Doodle Jump
+    - Flappy Bird
+    - Memory game
+    - Whack-a-mole game
+    - Connect Four game
+    - Snake game
+    - Space Invaders game
+    - Frogger game
+    - Tetris game
+    - React Projects
+    - How to buildTic-Tac-Toe game using React Hooks
+    - How to buildTetris Game using React Hooks
+    - Birthday Reminder App
+    - tours page
+    - an accordion menu
+    - tabs forportfolio page
+    - review slider
+    - color generator
+    - Stripe payment menu page
+    - shopping cart page
+    - cocktail search page
+    - Quiz App with React and TypeScript
+    - Arkanoid game with TypeScript
+}
+
+{
+    https://jsbeginners.com/javascript-projects-for-beginners/
+    https://javascript30.com/
+
+    1. Change Background Color Project
+    2. Hex Change Background Color Project
+    3. Random Quotes Project
+    4. Pass the Message Project
+    5. Counter Project
+    6. Background Image Slider Project
+    7. Testimonials Project
+    8. Filter Project
+    9. Modal Project
+    10. Calculator Project
+    11. Tip Form Project
+    12. To Do List Project
+    13. Grocery Cart Project
+    14. Grocery List Project
+    14b. Grocery List Project #2 (Intermediate)
+    15. Course Form Project (Intermediate/OOP Project)
+    16. Flashcard Project (Intermediate/OOP project)
+    17. Budget Application Project
+    18. Coffee Shop Project
+    19. Car Dealership Project
+    20. Random Joke AJAX Project
+    21. Random Person AJAX Project
+    22. HTTP Methods Project
+    23. Wikipedia Search Project
+    24. Weather Data Project
+    25. Github Project
+    26. Zomato Restaurant Project
+    27. Comfy House Project
+    28. Analogue Clock Project
+    29. Mortgage Loan Calculator Project
+    30. Quote of the day Project
+    31. BMI Calculator Project
+    32. Weight Conversion Project
+    33. Background Color Switcher Project
+    34. 2D Breakout Game Project (Intermediate)
+    35. Digital Calculator Project
+    36. Digital Clock Project
+    37. Event Countdown Timer Project
+    38. Tip Calculator Project
+    39. Word Count Tool Project
+    40. Contact Form Project (using local storage)
+    41. Day of Week App Project
+    42. Background Color Changer Project
+    43. Image Slider Project
+    44. Addition Game Project
+    45. Todo List Project
+    46. Interactive Quiz Project
+    47. Countdown Timer Project
+    48. Balloon Popping Game Project
+    49. RSS News Feed Project
+    50. Number Guessing Game Project (Intermediate)
+    51. Light Switch Effect Project
+    52. Greeting Message Project
+    53. Height Conversion Project
+    54. Wack A Mole Game Project (Intermediate)
+    55. Notes App Project (Intermediate)
+    56. Todo App Project (Intermediate)
+    57. Hangman App Project (Intermediate)
+    58. Recipe App Project (Intermediate)
+    59. Tip Calculator Project
+    60. Welcome Messages Project
+    61. Dynamically Changing Message Project
+    62. Coin Toss Application Project (Intermediate)
+    63. Rock Paper Scissors JavaScript Project
+    64. Ultimate Dice Game JavaScript Project
+    65. Play Audio Files and Sounds JavaScript Project
+    66. JavaScript Dynamic Typing Test Project
+    67. Functionator Function Practice JavaScript Project
+    68. Magic Eight Ball JavaScript Project
+    69. Combination Guesser Game JavaScript Project
+    70. Word Scramble JavaScript Project
+    71. Countdown Timer JavaScript Project
+    72. Pattern Matching Game JavaScript Project
+    73. Click Popper Game JavaScript Project
+    74. High Low Card Game Project
+    75. Click Shape Game Project
+    76. Word Finding Game Project
+    77. JavaScript Car Game Project
+    78. Input Field Character Counter Project
+    79. Element Scrolling Content Code Snippet Project
+    80. Fun with The Document Object Model Project
+    81. Just JavaScript Click Counter Project
+    82. Image Popup Window Project
+    83. JavaScript Word Guessing Hangman Game Project
+    84. JavaScript Modal Popup Example Project
+    85. Image Carousel JavaScript Animated Slideshow Application Project
+    86. Star Rating Project
+    87. Plane Bomber Game JavaScript Project
+    88. JavaScript Accordion Component Project
+    89. Chaser Box Game Project
+    90. Tool tip Project
+    91. Email Exacter Application Project
+    92. Popup Message JavaScript Project
+    93. Clipboard – Copy and Move Project
+    94. Pure JavaScript Calculator Project
+    95. Editable Shopping List Project
+    96. Placeholder Image Path Generator Project
+    97. Catch Element Game Project
+    98. Element Mouse and Click Events Project
+    99. Create Form Validation Project
+    100. Cookie Get Set Tester Project
+    101. DOM Interaction Application Project
+    102. Google Sheet Data to CSV Exporter Project
+    103. Flying Bird Game Project
+    104. Number Guessing Game Project
+    105. Element Catcher Game Project
+    106. Alien Invader Game Project
+    107. Card War Game Project
+    108. YouTube API Connection Project
+    109. Brick Breaker Paddle Ball Game
+    110. Drum Kit Project
+    111. CSS + JavaScript Clock
+    112. Playing with CSS Variables and JS
+    113. Array Cardio Day 1
+    114. Flex Panels Image Gallary
+    115. Ajax Type Ahead
+    116. Array Cardio Day 2
+    117. Fun with HTML5 Canvas
+    118. 14 Must Know Dev Tools Tricks
+    119. Hold Shift to Check Multiple Checkboxes
+    120. Custom HTML5 Video Player Project
+    121. Key Sequence Detection (KONAMI CODE)
+    122. Slide in on Scroll Project
+    123. Objects and Arrays – Reference Vs Copy
+    124. LocalStorage and Event Delegation
+    125. CSS Text Shadow Mouse Move Effect
+    126. Sorting Band Names without articles
+    127. Tally String Times with Reduce
+    128. Unreal Webcam Fun
+    129. Native Speech Recognition Project
+    130. Geolocation based Speedometer and Compass Project
+    131. Follow Along Links
+    132. Speech Synthesis Project
+    133. Sticky Nav Project
+    134. Event Capture, Propagation, Bubbling and Once Project
+    135. Stripe Follow Along Dropdown Navigation Project
+    136. Click and Drag to Scroll
+    137. Experimental Video Speed Controller UI Project
+    138. Countdown Clock Project
+    139. Wack-a-Mole Game Project
+}
+
+
+
+
+=============== MERN Developer Projects ===================
+{
+    MERN Developer Projects
+    https://altcampus.school/posts/10-full-stack-beginner-project-ideas-for-learning-MERN-stack
+
+    1. Travel Log App
+    2. Personal Project Management Tool
+    3. Public Blog App
+    4. E-Commerce Website/Shopify Clone
+    5. Bookstore Library & Stock keeping app
+    6. Social Media App for local handicrafts
+    7. Task Management Tool
+    8. Workout Tracker App
+    9. Realtime Chat App
+    10. Hospital Management App
+}
+
+{
+    https://www.upgrad.com/blog/full-stack-coding-project-ideas-topics-for-beginners/
+
+    1) Content Management System for a blog
+    2) Multi-client website offering client services
+    3) e-commerce website for automotive parts
+    4) Food delivery application
+    5) Grocery delivery application
+    6) e-commerce portal for used furniture sales
+    7) Web portal for motor servicing at home
+    8) Project Management application
+    9) To-do list project
+    10) Blog Website and App
+    11) Portfolio Website
+    12) Food delivery app/website
+    13) Website or app for e-commerce
+    14) Video Conferencing App/Website
+    15) Social Media App/Website
+    16) Content Management Tool or System for Blogs
+    17) Project Management Tool
+}
+
+{
+    https://www.trio.dev/blog/full-stack-project-ideas
+    https://hackr.io/blog/full-stack-project-ideas
+
+    1. E-commerce Website
+    2. Food Delivery App
+    3. Social Media App
+    4. Chat Messaging App
+    5. Content Management System
+    6. Blog Site
+    7. Workout Tracker 
+    8. Project Management Dashboard 
+}
+
+{
+    https://devdevshow.com/mern-stack-project-ideas-for-beginners/
+
+    1. E-Commerce Platform
+    2. Events Page
+    3. TO-DO List
+    4. E-Voting System
+    5. Zoom Clone
+    6. CrowdFunding App
+    7. Chat App
+    8. Survey Page
+}
+
+{
+    https://www.upgrad.com/blog/full-stack-projects-github-beginners/
+
+    1. TapNews
+    2. Fullstackinator
+    3. PostVapoRS
+    4. MongoVapoRS
+    5. Full-stack PPM too
+    6. CodingAI
+    7. Item Catalog
+    8. Full-stack tutorial
+    9. Feel
+    10. Berlin Neighborhood Map
+    11. Housekeeper
+    12. Hospital Management System
+    13. BookMyShow Clone
+    14. Japanese Food Blog
+    15. Veudo
+}
+
+{
+    https://www.interviewbit.com/blog/full-stack-projects-with-source-code/
+    https://github.com/topics/mern-stack
+    https://projectworlds.in/category/mean-stack-projects-with-source-code/
+}
