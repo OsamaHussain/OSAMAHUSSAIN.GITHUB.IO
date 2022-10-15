@@ -108,28 +108,36 @@ class Automobile {
 	openOrCloseDoor() {
 		if (this.isDoorClose) {
 			console.log('Doors are Closed!.. Ready');
+			return 'Doors are Closed!.. Ready';
 		} else {
 			console.log('Doors are Opened!.. Please close it...');
+			return 'Doors are Opened!.. Please close it...';
 		}
 	}
 
 	open() {
 		console.log('Opening Car Doors!...');
 		this.isDoorClose = false;
+		return 'Opening Car Doors!...';
 	}
 
 	close() {
 		console.log('Closing Car Doors!...');
 		this.isDoorClose = true;
+		return 'Closing Car Doors!...';
 	}
 
 	start(type, name, model) {
 		console.log(`${type}: ${name} (${model}) is ready to Drive!...`);
+		return `${type}: ${name} (${model}) is ready to Drive!...`;
 	}
 
 	go() {
 		if (this.isDoorClose) {
-			this.start(this.type, this.name, this.model);
+			// this.start(this.type, this.name, this.model);
+			return this.start(this.type, this.name, this.model);
+		} else {
+			return 'Please close doors first!...';
 		}
 	}
 }
@@ -157,10 +165,12 @@ class Bus extends Automobile {
 
 	getPrice() {
 		console.log(`Price of ${this.type}:${this.name} is ${this.price}`);
+		return `Price of ${this.type}: ${this.name} is ${this.price}`;
 	}
 
 	getArea() {
 		console.log(`Area of ${this.type}:${this.name} is ${this.area}`);
+		return `Area of ${this.type}: ${this.name} is ${this.area}`;
 	}
 }
 class Truck extends Automobile {
@@ -172,19 +182,62 @@ class Truck extends Automobile {
 
 	getPrice() {
 		console.log(`Price of ${this.type} is ${this.price}`);
+		return `Price of ${this.type} is ${this.price}`;
 	}
 
 	getUsage() {
 		console.log(`Usage of ${this.type}:${this.name} is ${this.usage}`);
+		return `Usage of ${this.type}: ${this.name} is ${this.usage}`;
 	}
 }
 
 console.log('================= CAR ================');
-const car = new Car('Car', 'Fx', '2013', 'Black', '240km/hr', '400000');
+const car = new Car('Car', 'Fx', '2013', 'Yellow', '240km/hr', '400000');
 car.getPrice();
 car.close();
 car.openOrCloseDoor();
 car.go();
+let carCmd = 1;
+function optCar(v) {
+	const d = document.getElementById('output1');
+	let st = '';
+	switch (v) {
+		case 'opendoor':
+			st = car.open();
+			break;
+		case 'closedoor':
+			st = car.close();
+			break;
+		case 'checkdoor':
+			st = car.openOrCloseDoor();
+			break;
+		case 'startcar':
+			st = car.go();
+			break;
+		case 'checkprice':
+			st = car.price;
+			break;
+		case 'maxspeed':
+			st = car.maxSpeed;
+			break;
+		case 'color':
+			st = car.color;
+			break;
+		case 'model':
+			st = car.model;
+			break;
+		case 'name':
+			st = car.name;
+			break;
+		default:
+			break;
+	}
+	// d.innerHTML += `<div>${st}</div>`;
+	const texte = document.createElement('div');
+	texte.innerHTML = `Command ${carCmd}: ${st}`;
+	d.prepend(texte);
+	carCmd++;
+}
 
 console.log('================= BUS ===============');
 const bus = new Bus(
@@ -201,19 +254,105 @@ bus.getArea();
 bus.close();
 bus.openOrCloseDoor();
 bus.go();
+let busCmd = 1;
+function optBus(v) {
+	const d = document.getElementById('output2');
+	let st = '';
+	switch (v) {
+		case 'opendoor':
+			st = bus.open();
+			break;
+		case 'closedoor':
+			st = bus.close();
+			break;
+		case 'checkdoor':
+			st = bus.openOrCloseDoor();
+			break;
+		case 'startcar':
+			st = bus.go();
+			break;
+		case 'checkprice':
+			st = bus.price;
+			break;
+		case 'maxspeed':
+			st = bus.maxSpeed;
+			break;
+		case 'color':
+			st = bus.color;
+			break;
+		case 'model':
+			st = bus.model;
+			break;
+		case 'name':
+			st = bus.name;
+			break;
+		case 'area':
+			st = bus.getArea();
+			break;
+		default:
+			break;
+	}
+	const texte = document.createElement('div');
+	texte.innerHTML = `Command ${busCmd}: ${st}`;
+	d.prepend(texte);
+	busCmd++;
+}
 
 console.log('================= Truck ===============');
 const truck = new Truck(
 	'Truck',
-	'Tanker',
+	'Military',
 	1998,
-	'Blue',
+	'Black',
 	'90km/hr',
-	'550000',
-	'Water Delivery'
+	'900000',
+	'Supply Ammunition & Soilders'
 );
 truck.getPrice();
 truck.getUsage();
 truck.close();
 truck.openOrCloseDoor();
 truck.go();
+let truckCmd = 1;
+function optTruck(v) {
+	const d = document.getElementById('output3');
+	let st = '';
+	switch (v) {
+		case 'opendoor':
+			st = truck.open();
+			break;
+		case 'closedoor':
+			st = truck.close();
+			break;
+		case 'checkdoor':
+			st = truck.openOrCloseDoor();
+			break;
+		case 'startcar':
+			st = truck.go();
+			break;
+		case 'checkprice':
+			st = truck.price;
+			break;
+		case 'maxspeed':
+			st = truck.maxSpeed;
+			break;
+		case 'color':
+			st = truck.color;
+			break;
+		case 'model':
+			st = truck.model;
+			break;
+		case 'name':
+			st = truck.name;
+			break;
+		case 'usage':
+			st = truck.getUsage();
+			break;
+		default:
+			break;
+	}
+	const texte = document.createElement('div');
+	texte.innerHTML = `Command ${truckCmd}: ${st}`;
+	d.prepend(texte);
+	truckCmd++;
+}

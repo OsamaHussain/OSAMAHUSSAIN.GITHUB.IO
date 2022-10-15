@@ -1,40 +1,70 @@
 * {
-    margin: 2px;
-    box-sizing: border-box;
+	margin: 2px;
+	box-sizing: border-box;
 }
 .container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
-#person {
-    padding: 0;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
+#person, #automobiles {
+	padding: 0;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
 }
 #person h1 {
-    display: flex;
-    /* margin: auto; */
+	display: flex;
+	/* margin: auto; */
 }
 .container > fieldset {
-    flex:auto;
+	flex: auto;
 }
-#incomedisplay, #incomedisplay2 {
-    background-color: lightgreen;
-    border: none;
-    font-size: 2em;
+#incomedisplay,
+#incomedisplay2 {
+	background-color: lightgreen;
+	border: none;
+	font-size: 2em;
 }
-#expensedisplay, #expensedisplay2 {
-    background-color: lightcoral;
-    border: none;
-    font-size: 2em;
+#expensedisplay,
+#expensedisplay2 {
+	background-color: lightcoral;
+	border: none;
+	font-size: 2em;
 }
-#balance, #username {
-    background-color: lightskyblue;
-    border: none;
-    font-size: 2em;
+#balance,
+#username {
+	background-color: lightskyblue;
+	border: none;
+	font-size: 2em;
 }
 textarea {
-    resize:vertical;
+	resize: vertical;
+}
+.style11 .style12 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#automobiles .container button{
+    /* background-color: red; */
+    width: 30%;
+}
+#automobiles .container .area, #automobiles .container .usage{
+    /* background-color: red; */
+    width: 100%;
+}
+.style13 {
+    text-align: center;
+}
+.style13 h4 {
+    background-color: lightgreen;
+
+}
+.style13.sty13 {
+    margin-top: 47px;
+}
+#output1, #output2, #output3 {
+    height: 300px;
+    overflow: auto;
 }
