@@ -1,0 +1,40 @@
+* {
+    margin: 2px;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#person {
+    padding: 0;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+#person h1 {
+    display: flex;
+    /* margin: auto; */
+}
+.container > fieldset {
+    flex:auto;
+}
+#incomedisplay, #incomedisplay2 {
+    background-color: lightgreen;
+    border: none;
+    font-size: 2em;
+}
+#expensedisplay, #expensedisplay2 {
+    background-color: lightcoral;
+    border: none;
+    font-size: 2em;
+}
+#balance, #username {
+    background-color: lightskyblue;
+    border: none;
+    font-size: 2em;
+}
+textarea {
+    resize:vertical;
+}

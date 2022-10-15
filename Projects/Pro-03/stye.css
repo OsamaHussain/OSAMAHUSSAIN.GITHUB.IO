@@ -12,9 +12,6 @@
     position: relative;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./background.webp') no-repeat center center / cover;
 }
-.clock > img {
-    /* height: 100vh; */
-}
 .top {
     position: relative;
 }
@@ -50,22 +47,13 @@
 }
 sub {
     position: absolute;
-    /* margin-left: 120px; */
     bottom: 25px;
     left: 0;
     right: 0;
     font-size: 0.3em;
 }
-#second2 {
-    color: rgba(200,200,200, 0.3);
-}
 #time,#time2 {
     display: flex;
-}
-#time > div, #time2 > div {
-}
-#time2 {
-    /* z-index: 2; */
 }
 @media only screen and (max-width: 576px) {
     .time {
@@ -77,6 +65,7 @@ sub {
     }
     .clock > img {
         height: 100vh !important;
+        object-fit:cover;
     }
     sub {
         bottom: 16px;
@@ -84,12 +73,9 @@ sub {
     
 }
 @media only screen and (min-width: 786px) {
-    body > *{
-        /* background-color: red; */
-        /* font-size: 0.1em !important; */
-    }
     .clock > img {
         height: 100vh !important;
         width: auto !important;
+        object-fit: contain;
     }
 }

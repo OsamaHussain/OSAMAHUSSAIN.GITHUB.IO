@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Person Account</title>
+</head>
+<body>
+    <fieldset id="person">
+    <legend><h1>Person Account</h1></legend>
+
+    <div class="container">
+        <fieldset class="income" style="width: 250px; padding-right: 20px;">
+        
+        <legend>Add Income:</legend>
+        <br>
+        <div>
+            <label for="">Total Income:</label><br>
+            <input type="text" style="width: 100%;" disabled id="incomedisplay">
+        </div>
+        <div>
+            <label for="">Income:</label><br>
+            <input type="text" style="width: 100%;" id="income">
+        </div>
+        <div>
+            <label for="">Description:</label><br>
+            <!-- <input type="text" style="width: 100%;" id="incomedescription"> -->
+            <textarea id="incomedescription" style="width:100%;" rows="1"></textarea>
+        </div><br>
+        <div>
+            <button id="incomeBtn">Add Income</button>
+        </div>
+        </fieldset>
+
+        <fieldset class="income" style="width: 250px; padding-right: 20px;">
+        
+            <legend>Add Expense:</legend>
+            <br>
+            <div>
+                <label for="">Total Expense:</label><br>
+                <input type="text" style="width: 100%;" disabled id="expensedisplay">
+            </div>
+            <div>
+                <label for="">Expense:</label><br>
+                <input type="text" style="width: 100%;" id="expense">
+            </div>
+            <div>
+                <label for="">Description:</label><br>
+                <!-- <input type="text" style="width: 100%;" id="expensedescription"> -->
+                <textarea id="expensedescription" style="width:100%;" rows="1"></textarea>
+            </div><br>
+            <div>
+                <button id="expenseBtn">Add Expense</button>
+            </div>
+            </fieldset>
+
+            <fieldset class="income" style="width: 250px; padding-right: 20px;">
+        
+            <legend>Account Balance:</legend>
+            <br>
+            <div>
+                <label for="">Total Income:</label><br>
+                <input type="text" style="width: 100%;" value="" disabled id="incomedisplay2">
+            </div>
+            <div>
+                <label for="">Total Expense:</label><br>
+                <input type="text" style="width: 100%;" value="" disabled id="expensedisplay2">
+            </div>
+            <div>
+                <label for="">Balance:</label><br>
+                <input type="text" style="width: 100%;" disabled value="" id="balance">
+            </div>
+            </fieldset>
+
+            <fieldset class="income" style="width: 250px; padding-right: 20px;">
+        
+            <legend>Person Details:</legend>
+            <br>
+            <div>
+                <label for="">Person Name:</label><br>
+                <input type="text" style="width: 100%;" value="" disabled id="username">
+            </div>
+            <div>
+                <label for="">First Name:</label><br>
+                <input type="text" style="width: 100%;" value="" id="firstname">
+            </div>
+            <div>
+                <label for="">Last Name:</label><br>
+                <input type="text" style="width: 100%;" value="" id="lastname">
+            </div><br>
+            <button id="changename">Change Name</button>
+            </fieldset>
+    </div>
+    </fieldset>
+    <script src="./script.js"></script>
+</body>
+</html>
