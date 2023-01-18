@@ -22,7 +22,7 @@
 
 # Projects
 
-- [<span style="color:#6495ED;">**Random Password Generator**</span>](./Projects/Pro-01/)
+- [<span style="color:#6495ED;">**Random Password Generator**</span>](./Projects/Pro-01/Random-Password-Generator/)
 
 - [<span style="color:#FF7F50;">**Digital Clock**</span>](./Projects/Pro-03/)
 
